@@ -69,6 +69,7 @@ div.error {}
 #example {}
 .error {}
 ```
+
 <h3 dir="rtl">1.4 Shorthand Properties</h4>
 
 <p dir="rtl">تا آنجایی که امکان دارد، ویژگی ها را کوتاه نگه دارید. این کار باعث خوانایی بیشتر کد، کوتاه شدن کد و افزایش بهره وری می شود.</p>
@@ -94,4 +95,17 @@ padding-top: 0;
 border-top: 0;
 font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1em 2em;
+```
+
+<h3 dir="rtl">1.5 0 و واحد ها</h4>
+
+<p dir="rtl">بعد از صفر ها، اگر امکان حذف کردن واحد وجود دارد، واحد را حذف کنید./p>
+
+#### Good Practice:
+
+```css
+flex: 0px; /* نیازمند واحد است flex-basis */
+flex: 1 1 0px; /* در اینترنت اکسپلورر 11 به واحد نیاز دارد. */
+margin: 0;
+padding: 0;
 ```
