@@ -18,7 +18,8 @@
   <li><a href="#2-css-formating-rules" >2 CSS Formating Rules</a></li>
   <li><a href="#3-css-meta-rules" >3 CSS Meta Rules</a></li>
 </ul>
-
+<br />
+<br />
 <h2>1 CSS Style Rules</h2>
 
 <h3>1.1 ID and Class Naming</h4>
