@@ -338,3 +338,22 @@ html {
   font-family: 'open sans', arial, sans-serif;
 }
 ```
+
+<h3 dir="rtl">3.1 Section Comments</h4>
+<p dir="rtl">برای هر بخش یک کامنت توضیحات و جداکننده قرار دهید.</p>
+
+#### Good Practice:
+
+```css
+/* Header */
+
+#adw-header {}
+
+/* Footer */
+
+#adw-footer {}
+
+/* Gallery */
+
+.adw-gallery {}
+```
