@@ -171,7 +171,7 @@ color: #ebc;
 <br />
 
 <h3>1.7 ID and Class Name Delimiters</h4>
-<p dir="rtl">از <bold>-</bold> برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
+<p dir="rtl">از "<bold>-</bold>" برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
 
 #### Bad Practice:
 
