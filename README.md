@@ -49,3 +49,49 @@
 #nav {}
 .author {}
 ```
+
+<h3 dir="rtl">1.3 Type Selectors</h4>
+
+<p dir="rtl">تا آنجایی که میتوانید از Type Selector ها استفاده نکنید. به جز زمانی که مجبورید. عدم استفاده از این سلکتور ها، موجب افزایش کارایی می شود. </p>
+
+#### Bad Practice:
+
+```css
+/* Not recommended */
+ul#example {}
+div.error {}
+```
+
+#### Good Practice:
+
+```css
+/* Recommended */
+#example {}
+.error {}
+```
+<h3 dir="rtl">1.4 Shorthand Properties</h4>
+
+<p dir="rtl">تا آنجایی که امکان دارد، ویژگی ها را کوتاه نگه دارید. این کار باعث خوانایی بیشتر کد، کوتاه شدن کد و افزایش بهره وری می شود.</p>
+
+#### Bad Practice:
+
+```css
+/* Not recommended */
+border-top-style: none;
+font-family: palatino, georgia, serif;
+font-size: 100%;
+line-height: 1.6;
+padding-bottom: 2em;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0;
+```
+
+#### Good Practice:
+
+```css
+/* Recommended */
+border-top: 0;
+font: 100%/1.6 palatino, georgia, serif;
+padding: 0 1em 2em;
+```
