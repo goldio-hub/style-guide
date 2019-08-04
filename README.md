@@ -3,9 +3,20 @@
 <p dir="rtl">اصولی که در این صفحه مشاهده میکنید، ترکیبی از خط مشی استایل دهی شرکت های بزرگ و تجربه ما میباشد. پیروی از این اصول موجب خوانایی و بالا رفتن کیفیت کار میشود.</p>
 <h2 dir="rtl">فهرست</h3>
 <ul>
-  <li><a href="#11-id-and-class-naming" >1.1 ID and Class Naming</a></li>
-  <li><a href="#11-id-and-class-naming" >1.1 ID and Class Naming</a></li>
-  <li><a href="#11-id-and-class-naming" >1.1 ID and Class Naming</a></li>
+  <li>
+    <a href="#1-css-style-rules">1 CSS Style Rules</a>
+    <ul>
+      <li><a href="#11-id-and-class-naming">1.1 ID and Class Naming</a></li>
+      <li><a href="#12-id-and-class-name-style">1.2 ID and Class Name Style</a></li>
+      <li><a href="#13-type-selectors">1.3 Type Selectors</a></li>
+      <li><a href="#14-shorthand-properties">1.4 Shorthand Properties</a></li>
+      <li><a href="#15-0-and-units">1.5 0 and Units</a></li>
+      <li><a href="#16-hexdecimal-notation">1.6 Hexdecimal Notation</a></li>
+      <li><a href="#17-id-and-class-name-delimiters">1.7 ID and Class Name Delimiters</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-css-formating-rules" >2 CSS Formating Rules</a></li>
+  <li><a href="#3-css-meta-rules" >3 CSS Meta Rules</a></li>
 </ul>
 
 <h2>1 CSS Style Rules</h2>
