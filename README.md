@@ -1,7 +1,7 @@
 <h1> CSS Style Guide </h1>
 
 <p dir="rtl">اصولی که در این صفحه مشاهده میکنید، ترکیبی از خط مشی استایل دهی شرکت های بزرگ و تجربه ما میباشد. پیروی از این اصول موجب خوانایی و بالا رفتن کیفیت کار میشود.</p>
-<h2>فهرست</h3>
+<h2 dir="rtl">فهرست</h3>
 <ul>
   <li>
     <a href="#1-css-style-rules">1 CSS Style Rules</a>
@@ -67,6 +67,9 @@
 .alt {}
 ```
 
+<br />
+<br />
+
 <h3>1.2 ID and Class Name Style</h4>
 <p dir="rtl">نام کلاس ها و ID ها یاید کوتاه ترین حالت ممکن، ولی به اندازه نیاز بلند باشند. نام کلاس ها باید بتوانند بدون هیچ ابهامی باشند.</p>
 
@@ -84,6 +87,9 @@
 .author {}
 ```
 
+<br />
+<br />
+
 <h3>1.3 Type Selectors</h4>
 <p dir="rtl">تا آنجایی که میتوانید از Type Selector ها استفاده نکنید. به جز زمانی که مجبورید. عدم استفاده از این سلکتور ها، موجب افزایش کارایی می شود. </p>
 
@@ -100,6 +106,9 @@ div.error {}
 #example {}
 .error {}
 ```
+
+<br />
+<br />
 
 <h3>1.4 Shorthand Properties</h4>
 <p dir="rtl">تا آنجایی که امکان دارد، ویژگی ها را کوتاه نگه دارید. این کار باعث خوانایی بیشتر کد، کوتاه شدن کد و افزایش بهره وری می شود.</p>
@@ -125,6 +134,9 @@ font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1em 2em;
 ```
 
+<br />
+<br />
+
 <h3>1.5 0 and Units</h4>
 <p dir="rtl">بعد از صفر ها، اگر امکان حذف کردن واحد وجود دارد، واحد را حذف کنید.</p>
 
@@ -137,8 +149,10 @@ margin: 0;
 padding: 0;
 ```
 
-<h3>1.6 Hexdecimal Notation</h4>
+<br />
+<br />
 
+<h3>1.6 Hexdecimal Notation</h4>
 <p dir="rtl">از نمایش 3 تایی هگز در جایی که امکان دارد استفاده کنید. این کار موجب خوانایی بیشتر کد ها میشود. برای مثال زمانی که هر 6 مقداز هگز، دو به دو برابر باشند.</p>
 
 #### Bad Practice:
@@ -152,6 +166,9 @@ color: #eebbcc;
 ```css
 color: #ebc;
 ```
+
+<br />
+<br />
 
 <h3>1.7 ID and Class Name Delimiters</h4>
 <p dir="rtl">از - برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
@@ -173,6 +190,9 @@ color: #ebc;
 #video-id {}
 .ads-sample {}
 ```
+
+<br />
+<br />
 
 <h2>2 CSS Formating Rules</h4>
 <p dir="rtl">قوانین قالب CSS</p>
@@ -206,6 +226,9 @@ color: #ebc;
 .ads-sample {}
 ```
 
+<br />
+<br />
+
 <h3>2.2 Block Content Indentation</h4>
 <p dir="rtl">محتوای هر بلوک باید دارای یک فاصله اضافی باشد. این کار باعث نمایش بهتر سلسه مراتبی میشود.</p>
 
@@ -235,6 +258,9 @@ html {
 }
 ```
 
+<br />
+<br />
+
 <h3>2.3 Declaration Stops</h4>
 <p dir="rtl">بعد از هر تعریف، یک ";" قرار دهید. این کار برای انسجام کد بسیار مفید است.</p>
 
@@ -256,6 +282,9 @@ html {
 }
 ```
 
+<br />
+<br />
+
 <h3>2.4 Property Name Stops</h4>
 <p dir="rtl">بعد از هر ":" یک فاصله قرار دهید.</p>
 
@@ -274,6 +303,9 @@ h3 {
   font-weight: bold;
 }
 ```
+
+<br />
+<br />
 
 <h3>2.5 Declaration Block Separation</h4>
 <p dir="rtl">بین آخرین سلکتور و آغاز بلوک از فاصله استفاده کنید</p>
@@ -302,6 +334,9 @@ h3 {
 }
 ```
 
+<br />
+<br />
+
 <h3>2.6 Selector and Declaration Separation</h4>
 <p dir="rtl">برای هر تعریف یا سلکتور، یک خط جدید ایجاد کنید.</p>
 
@@ -323,6 +358,9 @@ h3 {
   line-height: 1.2;
 }
 ```
+
+<br />
+<br />
 
 <h3>2.7 Rule Separation</h4>
 <p dir="rtl">قوانین را با خط جدید از یکدیگر جدا کنید. هر قانون در خط دوم پس از قانون اول قرار دارد.</p>
@@ -352,6 +390,9 @@ body {
 }
 ```
 
+<br />
+<br />
+
 <h3>2.8 CSS Quotation Marks</h4>
 <p dir="rtl">از '' به جای "" در سلکتور های مشخصه ها و مقادیر ویژگی ها استفاده کنید.</p>
 <p dir="rtl">از علامت کوتیشن در URI استفاده نکنید</p>
@@ -376,6 +417,9 @@ html {
   font-family: 'open sans', arial, sans-serif;
 }
 ```
+
+<br />
+<br />
 
 <h2>3 CSS Meta Rules</h4>
 
