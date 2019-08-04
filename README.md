@@ -71,7 +71,7 @@
 <br />
 
 <h3>1.2 ID and Class Name Style</h4>
-<p dir="rtl">نام کلاس ها و ID ها یاید کوتاه ترین حالت ممکن، ولی به اندازه نیاز بلند باشند. نام کلاس ها باید بتوانند بدون هیچ ابهامی باشند.</p>
+<p dir="rtl">نام کلاس ها و ID ها باید کوتاه ترین حالت ممکن، ولی به اندازه نیاز بلند باشند. نام کلاس ها باید بتوانند بدون هیچ ابهامی باشند.</p>
 
 #### Bad Practice:
 
@@ -171,7 +171,7 @@ color: #ebc;
 <br />
 
 <h3>1.7 ID and Class Name Delimiters</h4>
-<p dir="rtl">از - برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
+<p dir="rtl">از <bold>-</bold> برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
 
 #### Bad Practice:
 
@@ -211,19 +211,63 @@ color: #ebc;
 #### Bad Practice:
 
 ```css
-/* Not recommended: does not separate the words “demo” and “image” */
-.demoimage {}
-
-/* Not recommended: uses underscore instead of hyphen */
-.error_status {}
+.selector {
+  border: 10px solid #333;
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  z-index: 10;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  background: #000;
+  color: #fff
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  overflow: hidden;
+  display: inline-block;
+  text-align: right;
+  cursor: pointer;
+}
 ```
 
 #### Good Practice:
 
 ```css
-/* Recommended */
-#video-id {}
-.ads-sample {}
+.selector {
+  /* Display & Box Model */
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid #333;
+  margin: 10px;
+  
+  /* Positioning */
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+
+  /* Color */
+  background: #000;
+  color: #fff
+  
+  /* Text */
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: right;
+
+  /* Other */
+  cursor: pointer;
+}
 ```
 
 <br />
