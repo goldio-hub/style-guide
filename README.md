@@ -146,8 +146,15 @@ color: #ebc;
 <p dir="rtl">قوانین قالب CSS</p>
 
 
-<h3 dir="rtl">2.1 ترتیب تعریف</h4>
+<h3 dir="rtl">2.1 Declaration Order</h4>
 <p dir="rtl">ترتیب تعریف ویژگی های هر کلاس CSS باید بر اساس ترتیب زیر باشد.</p>
+<ul>
+  <li>Display</li>
+  <li>Positioning</li>
+  <li>Box model</li>
+  <li>Colors and Typography</li>
+  <li>Other</li>
+</ul>
 
 #### Bad Practice:
 
