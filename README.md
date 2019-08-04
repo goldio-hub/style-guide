@@ -339,6 +339,8 @@ html {
 }
 ```
 
+<h2 dir="rtl">3 CSS Meta Rules</h4>
+
 <h3 dir="rtl">3.1 Section Comments</h4>
 <p dir="rtl">برای هر بخش یک کامنت توضیحات و جداکننده قرار دهید.</p>
 
@@ -357,3 +359,5 @@ html {
 
 .adw-gallery {}
 ```
+
+
