@@ -1,7 +1,7 @@
 <h1> CSS Style Guide </h1>
 
 <p dir="rtl">اصولی که در این صفحه مشاهده میکنید، ترکیبی از خط مشی استایل دهی شرکت های بزرگ و تجربه ما میباشد. پیروی از این اصول موجب خوانایی و بالا رفتن کیفیت کار میشود.</p>
-<h2 dir="rtl">فهرست</h3>
+<h2>فهرست</h3>
 <ul>
   <li>
     <a href="#1-css-style-rules">1 CSS Style Rules</a>
@@ -15,8 +15,26 @@
       <li><a href="#17-id-and-class-name-delimiters">1.7 ID and Class Name Delimiters</a></li>
     </ul>
   </li>
-  <li><a href="#2-css-formating-rules" >2 CSS Formating Rules</a></li>
-  <li><a href="#3-css-meta-rules" >3 CSS Meta Rules</a></li>
+  <li>
+    <a href="#2-css-formating-rules" >2 CSS Formating Rules</a>
+    <ul>
+      <li><a href="#2-css-formating-rules">2.1 Declaration Order</a></li>
+      <li><a href="#22-block-content-indentation">2.2 Block Content Indentation</a></li>
+      <li><a href="#23-declaration-stops">2.3 Declaration Stops</a></li>
+      <li><a href="#24-property-name-stops">2.4 Property Name Stops</a></li>
+      <li><a href="#25-declaration-block-separation">2.5 Declaration Block Separation</a></li>
+      <li><a href="#26-selector-and-declaration-separation">2.6 Selector and Declaration Separation</a></li>
+      <li><a href="#27-rule-separation">2.7 Rule Separation</a></li>
+      <li><a href="#28-css-quotation-marks">2.8 CSS Quotation Marks</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#3-css-meta-rules" >3 CSS Meta Rules</a>
+      <ul>
+        <li><a href="#31-section-comments">3.1 Section Comments</a></li>
+        <li><a href="#32-notes">3.2 Notes</a></li>
+      </ul>
+  </li>
 </ul>
 <br />
 <br />
@@ -156,7 +174,7 @@ color: #ebc;
 .ads-sample {}
 ```
 
-<h2 dir="rtl">2 CSS Formating Rules</h4>
+<h2>2 CSS Formating Rules</h4>
 <p dir="rtl">قوانین قالب CSS</p>
 
 
@@ -359,7 +377,7 @@ html {
 }
 ```
 
-<h2 dir="rtl">3 CSS Meta Rules</h4>
+<h2>3 CSS Meta Rules</h4>
 
 <h3>3.1 Section Comments</h4>
 <p dir="rtl">برای هر بخش یک کامنت توضیحات و جداکننده قرار دهید.</p>
