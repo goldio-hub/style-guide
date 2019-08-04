@@ -37,7 +37,6 @@
 #### Bad Practice:
 
 ```css
-/* Not recommended */
 #navigation {}
 .atr {}
 ```
@@ -45,7 +44,6 @@
 #### Good Practice:
 
 ```css
-/* Recommended */
 #nav {}
 .author {}
 ```
@@ -57,7 +55,6 @@
 #### Bad Practice:
 
 ```css
-/* Not recommended */
 ul#example {}
 div.error {}
 ```
@@ -65,7 +62,6 @@ div.error {}
 #### Good Practice:
 
 ```css
-/* Recommended */
 #example {}
 .error {}
 ```
@@ -77,7 +73,6 @@ div.error {}
 #### Bad Practice:
 
 ```css
-/* Not recommended */
 border-top-style: none;
 font-family: palatino, georgia, serif;
 font-size: 100%;
@@ -91,7 +86,6 @@ padding-top: 0;
 #### Good Practice:
 
 ```css
-/* Recommended */
 border-top: 0;
 font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1em 2em;
@@ -108,4 +102,20 @@ flex: 0px; /* نیازمند واحد است flex-basis */
 flex: 1 1 0px; /* در اینترنت اکسپلورر 11 به واحد نیاز دارد. */
 margin: 0;
 padding: 0;
+```
+
+<h3 dir="rtl">1.6 Hexdecimal Notation</h4>
+
+<p dir="rtl">از نمایش 3 تایی هگز در جایی که امکان دارد استفاده کنید. این کار موجب خوانایی بیشتر کد ها میشود. برای مثال زمانی که هر 6 مقداز هگز، دو به دو برابر باشند.</p>
+
+#### Bad Practice:
+
+```css
+color: #eebbcc;
+```
+
+#### Good Practice:
+
+```css
+color: #ebc;
 ```
