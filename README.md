@@ -3,8 +3,13 @@
 <p dir="rtl">اصولی که در این صفحه مشاهده میکنید، ترکیبی از خط مشی استایل دهی شرکت های بزرگ و تجربه ما میباشد. پیروی از این اصول موجب خوانایی و بالا رفتن کیفیت کار میشود.</p>
 <h2 dir="rtl">فهرست</h3>
 <ul>
-  <li><a href="#" /></li>
+  <li><a href="#11-id-and-class-naming" >1.1 ID and Class Naming</a></li>
+  <li><a href="#11-id-and-class-naming" >1.1 ID and Class Naming</a></li>
+  <li><a href="#11-id-and-class-naming" >1.1 ID and Class Naming</a></li>
 </ul>
+
+<h2>1 CSS Style Rules</h2>
+
 <h3>1.1 ID and Class Naming</h4>
 <p dir="rtl">برای نام گذاری اسامی کلاس ها و ID ها ، از کلمات با معنی و مرتبط و کلی استفاده کنید. برای نوشتن کلمات از شیوه نگارش kebab-case استفاده کنید.</p>
 
