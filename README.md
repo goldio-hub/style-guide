@@ -148,7 +148,7 @@ color: #ebc;
 
 <h3 dir="rtl">2.1 Declaration Order</h4>
 <p dir="rtl">ترتیب تعریف ویژگی های هر کلاس CSS باید بر اساس ترتیب زیر باشد.</p>
-<ul>
+<ul dir="rtl">
   <li>Display</li>
   <li>Positioning</li>
   <li>Box model</li>
@@ -317,5 +317,30 @@ html {
 body {
   margin: auto;
   width: 50%;
+}
+```
+
+<h3 dir="rtl">2.8 CSS Quotation Marks</h4>
+<p dir="rtl">از '' به جای "" در سلکتور های مشخصه ها و مقادیر ویژگی ها استفاده کنید.</p>
+<p dir="rtl">از علامت کوتیشن در URI استفاده نکنید</p>
+<p dir="rtl">استثناء: اگر نیاز داشتید از @charset استفاده کنید، از "" استفاده کنید، زیرا '' قابل پذیرش در اینجا نیست.</p>
+
+#### Bad Practice:
+
+```css
+@import url("https://www.google.com/css/maia.css");
+
+html {
+  font-family: "open sans", arial, sans-serif;
+}
+```
+
+#### Good Practice:
+
+```css
+@import url(https://www.google.com/css/maia.css);
+
+html {
+  font-family: 'open sans', arial, sans-serif;
 }
 ```
