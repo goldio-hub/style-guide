@@ -119,3 +119,196 @@ color: #eebbcc;
 ```css
 color: #ebc;
 ```
+
+<h3 dir="rtl">1.7 جداکننده های کلاس و ID</h4>
+
+<p dir="rtl">از - برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
+
+#### Bad Practice:
+
+```css
+/* Not recommended: does not separate the words “demo” and “image” */
+.demoimage {}
+
+/* Not recommended: uses underscore instead of hyphen */
+.error_status {}
+```
+
+#### Good Practice:
+
+```css
+/* Recommended */
+#video-id {}
+.ads-sample {}
+```
+
+<h2 dir="rtl">2 CSS Formating Rules</h4>
+<p dir="rtl">قوانین قالب CSS</p>
+
+
+<h3 dir="rtl">2.1 ترتیب تعریف</h4>
+<p dir="rtl">ترتیب تعریف ویژگی های هر کلاس CSS باید بر اساس ترتیب زیر باشد.</p>
+
+#### Bad Practice:
+
+```css
+/* Not recommended: does not separate the words “demo” and “image” */
+.demoimage {}
+
+/* Not recommended: uses underscore instead of hyphen */
+.error_status {}
+```
+
+#### Good Practice:
+
+```css
+/* Recommended */
+#video-id {}
+.ads-sample {}
+```
+
+<h3 dir="rtl">2.2 Block Content Indentation</h4>
+<p dir="rtl">محتوای هر بلوک باید دارای یک فاصله اضافی باشد. این کار باعث نمایش بهتر سلسه مراتبی میشود.</p>
+
+#### Bad Practice:
+
+```css
+@media screen, projection {
+
+html {
+  background: #fff;
+  color: #444;
+}
+
+}
+```
+
+#### Good Practice:
+
+```css
+@media screen, projection {
+
+  html {
+    background: #fff;
+    color: #444;
+  }
+
+}
+```
+
+<h3 dir="rtl">2.3 Declaration Stops</h4>
+<p dir="rtl">بعد از هر تعریف، یک ";" قرار دهید. این کار برای انسجام کد بسیار مفید است.</p>
+
+#### Bad Practice:
+
+```css
+.test {
+  display: block;
+  height: 100px
+}
+```
+
+#### Good Practice:
+
+```css
+.test {
+  display: block;
+  height: 100px;
+}
+```
+
+<h3 dir="rtl">2.4 Property Name Stops</h4>
+<p dir="rtl">بعد از هر ":" یک فاصله قرار دهید.</p>
+
+#### Bad Practice:
+
+```css
+h3 {
+  font-weight:bold;
+}
+```
+
+#### Good Practice:
+
+```css
+h3 {
+  font-weight: bold;
+}
+```
+
+<h3 dir="rtl">2.5 Declaration Block Separation</h4>
+<p dir="rtl">بین آخرین سلکتور و آغاز بلوک از فاصله استفاده کنید</p>
+<p dir="rtl">در این قانون، شروع بلوک و آخرین سلکتور باید در یک خط و با یک فاصله از هم قرار داشته باشند.</p>
+
+#### Bad Practice:
+
+```css
+/* Not recommended: missing space */
+#video{
+  margin-top: 1em;
+}
+
+/* Not recommended: unnecessary line break */
+#video
+{
+  margin-top: 1em;
+}
+```
+
+#### Good Practice:
+
+```css
+#video {
+  margin-top: 1em;
+}
+```
+
+<h3 dir="rtl">2.6 Selector and Declaration Separation</h4>
+<p dir="rtl">برای هر تعریف یا سلکتور، یک خط جدید ایجاد کنید.</p>
+
+#### Bad Practice:
+
+```css
+a:focus, a:active {
+  position: relative; top: 1px;
+}
+```
+
+#### Good Practice:
+
+```css
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+```
+
+<h3 dir="rtl">2.7 Rule Separation</h4>
+<p dir="rtl">قوانین را با خط جدید از یکدیگر جدا کنید. هر قانون در خط دوم پس از قانون اول قرار دارد.</p>
+
+#### Bad Practice:
+
+```css
+html {
+  background: #fff;
+}
+body {
+  margin: auto;
+  width: 50%;
+}
+```
+
+#### Good Practice:
+
+```css
+html {
+  background: #fff;
+}
+
+body {
+  margin: auto;
+  width: 50%;
+}
+```
