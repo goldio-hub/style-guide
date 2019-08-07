@@ -8,16 +8,19 @@
     <ul>
       <li><a href="#11-document-type">1.1 Document Type</a></li>
       <li><a href="#12-html-validity">1.2 HTML Validity</a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
+      <li><a href="#13-semantics">1.3 Semantics</a></li>
+      <li><a href="#14-multimedia-fallback">1.4 Multimedia Fallback</a></li>
+      <li><a href="#15-separation-of-concerns">1.5 Separation of Concerns</a></li>
+      <li><a href="#16-entity-references">1.6 Entity References</a></li>
+      <li><a href="#17-type-attributes">1.7 <code>type</code> Attributes</a></li>
     </ul>
   </li>
   <li>
-    <a href="" ></a>
+    <a href="#2-html-formatting-rules">2 HTML Formatting Rules</a>
     <ul>
-      <li><a href=""></a></li>
+      <li><a href="#21-general-formatting">2.1 General Formatting</a></li>
+      <li><a href="#22-html-line-wrapping">2.2 HTML Line-Wrapping</a></li>
+      <li><a href="#23-html-quotation-marks">2.3 HTML Quotation Marks</a></li>
     </ul>
   </li>
 </ul>
@@ -92,7 +95,7 @@
 <br />
 <br />
 
-<h3>1.4 Multimedia Fallback </h4>
+<h3>1.4 Multimedia Fallback</h4>
 <p dir="rtl">برای داده های چند رسانه ای نسخه های جایگزین فراهم کنید تا درصورتی که محتوا نتوانستند دانلود شوند، جایگزین ها نمایش داده شوند.</p>
 <p dir="rtl">برای تصاویر از متن جایگزین با معنایی استفاده کنید. (تگ alt)</p>
 <p dir="rtl">برای ویدیو ها و صوت ها کپشن قرار دهید و درصورت امکان متن صوت و ویدیو را نیز در ترنسکریپت آن قرار دهید.</p>
