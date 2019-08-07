@@ -87,25 +87,103 @@
 <br />
 <br />
 
-<h3>1.4 Multimedia Fallback/h4>
+<h3>1.4 Multimedia Fallback </h4>
 <p dir="rtl">برای داده های چند رسانه ای نسخه های جایگزین فراهم کنید تا درصورتی که محتوا نتوانستند دانلود شوند، جایگزین ها نمایش داده شوند.</p>
 <p dir="rtl">برای تصاویر از متن جایگزین با معنایی استفاده کنید. (تگ alt)</p>
-<p dir="rtl"></p>
-<p dir="rtl"></p>
-<p dir="rtl"></p>
-<p dir="rtl"></p>
-<p dir="rtl"></p>
+<p dir="rtl">برای ویدیو ها و صوت ها کپشن قرار دهید و درصورت امکان متن صوت و ویدیو را نیز در ترنسکریپت آن قرار دهید.</p>
+<p dir="rtl">فراهم کردن محتوای ثانویه، برای قابلیت دستری افراد ناتوان بسیار مهم است. برای مثال برای فرد نابینا، اگر این محتوای جایگزین وجود نداشته باشد، فهمیدن اینکه این بخش سایت چه چیزی وجود دارد و برای چه وجود دارد غیر قابل فهم میشود.</p>
+<p dir="rtl">برای تصاویری که تنها هدف آن ها دیزاین سایت است و نمیتوان برای آن ها محتوای جایگزینی پیدا کرد، میتوان از رشته خالی برای محتوای جایگزین استفاده کرد.</p>
 
 #### Bad:
 
 ```html
-<div onclick="goToRecommendations();">All recommendations</div>
+<img src="spreadsheet.png">
 ```
 
 #### Good:
 
 ```html
-<a href="recommendations/">All recommendations</a>
+<img src="spreadsheet.png" alt="Spreadsheet screenshot.">
+```
+
+<br />
+<br />
+
+<h3>1.5 Separation of Concerns</h4>
+<p dir="rtl">رفتار، ظاهر و ساختار را همیشه جدا از هم نگه دارید.</p>
+<p dir="rtl">تا جایی که میتوانید فایل های ساختاری HTML فایل های رفتاری scripts و فایل های ظاهری styling را از یکدیگر جدا نگه دارید.</p>
+<p dir="rtl">این کار به خاطر نگه داری بهتر انجام میشود. تغییر یک استایل در فایل styles راحت تر از تغییر آن در template اصلی میباشد.</p>
+
+#### Bad:
+
+```html
+<!DOCTYPE html>
+<title>HTML sucks</title>
+<link rel="stylesheet" href="base.css" media="screen">
+<link rel="stylesheet" href="grid.css" media="screen">
+<link rel="stylesheet" href="print.css" media="print">
+<h1 style="font-size: 1em;">HTML sucks</h1>
+<p>I’ve read about this on a few sites but now I’m sure:
+  <u>HTML is stupid!!1</u>
+<center>I can’t believe there’s no way to control the styling of
+  my website without doing everything all over again!</center>
+```
+
+#### Good:
+
+```html
+<!DOCTYPE html>
+<title>My first CSS-only redesign</title>
+<link rel="stylesheet" href="default.css">
+<h1>My first CSS-only redesign</h1>
+<p>I’ve read about this on a few sites but today I’m actually
+  doing it: separating concerns and avoiding anything in the HTML of
+  my website that is presentational.
+<p>It’s awesome!
+```
+
+<br />
+<br />
+
+<h3>1.6 Entity References</h4>
+<p dir="rtl">از علامت هایی مثل <code>&amp;mdash;</code> استفاده نکنید. و به جای آن از کاراکتر های UTF-8 استفاده کنید. </p>
+<p dir="rtl">تنها برای کارکتر های ویژه مانند نیم فاصله مجاز به استفاده از این کارکتر ها هستید.</p>
+
+#### Bad:
+
+```html
+The currency symbol for the Euro is &ldquo;&eur;&rdquo;.
+```
+
+#### Good:
+
+```html
+The currency symbol for the Euro is “€”.
+```
+
+<br />
+<br />
+
+<h3>1.7 <code>type</code> Attributes</h4>
+<p dir="rtl">برای stylesheet ها و script ها، <code>type</code> را حذف نمایید.</p>
+<p dir="rtl">از <code>type</code> استفاده نکنید، مگر اینکه جیزی غیر از css و یا javascript باشد.</p>
+<p dir="rtl">وقتی <code>type</code> را حذف میکنیم، به طور خودکار مرورگرها این موارو را با مقدار پیشفرض مشخص میکنند.</p>
+<p dir="rtl"></p>
+
+#### Bad:
+
+```html
+<link rel="stylesheet" href="https://www.google.com/css/maia.css" type="text/css">
+
+<script src="https://www.google.com/js/gweb/analytics/autotrack.js" type="text/javascript"></script>
+```
+
+#### Good:
+
+```html
+<link rel="stylesheet" href="https://www.google.com/css/maia.css">
+
+<script src="https://www.google.com/js/gweb/analytics/autotrack.js"></script>
 ```
 
 <br />
