@@ -44,7 +44,7 @@
 ### 1.1 ID and Class Naming
 <p dir="rtl">برای نام گذاری اسامی کلاس ها و ID ها ، از کلمات با معنی و مرتبط و کلی استفاده کنید. برای نوشتن کلمات از شیوه نگارش kebab-case استفاده کنید.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 /* Not recommended: meaningless */
@@ -55,7 +55,7 @@
 .clear {}
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 /* Recommended: specific */
@@ -74,14 +74,14 @@
 ### 1.2 ID and Class Name Style
 <p dir="rtl">نام کلاس ها و ID ها باید کوتاه ترین حالت ممکن، ولی به اندازه نیاز بلند باشند. نام کلاس ها باید بتوانند بدون هیچ ابهامی باشند.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 #navigation {}
 .atr {}
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 #nav {}
@@ -94,14 +94,14 @@
 ### 1.3 Type Selectors
 <p dir="rtl">تا آنجایی که میتوانید از Type Selector ها استفاده نکنید. به جز زمانی که مجبورید. عدم استفاده از این سلکتور ها، موجب افزایش کارایی می شود. </p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 ul#example {}
 div.error {}
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 #example {}
@@ -114,7 +114,7 @@ div.error {}
 ### 1.4 Shorthand Properties
 <p dir="rtl">تا آنجایی که امکان دارد، ویژگی ها را کوتاه نگه دارید. این کار باعث خوانایی بیشتر کد، کوتاه شدن کد و افزایش بهره وری می شود.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 border-top-style: none;
@@ -127,7 +127,7 @@ padding-right: 1em;
 padding-top: 0;
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 border-top: 0;
@@ -141,7 +141,7 @@ padding: 0 1em 2em;
 ### 1.5 0 and Units
 <p dir="rtl">بعد از صفر ها، اگر امکان حذف کردن واحد وجود دارد، واحد را حذف کنید.</p>
 
-#### Good Practice:
+#### Good:
 
 ```css
 flex: 0px; /* نیازمند واحد است flex-basis */
@@ -156,13 +156,13 @@ padding: 0;
 ### 1.6 Hexdecimal Notation
 <p dir="rtl">از نمایش 3 تایی هگز در جایی که امکان دارد استفاده کنید. این کار موجب خوانایی بیشتر کد ها میشود. برای مثال زمانی که هر 6 مقداز هگز، دو به دو برابر باشند.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 color: #eebbcc;
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 color: #ebc;
@@ -174,7 +174,7 @@ color: #ebc;
 ### 1.7 ID and Class Name Delimiters
 <p dir="rtl">از "<bold>-</bold>" برای جدا کردن اسامی کلاس ها و ID ها استفاده کنید.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 /* Not recommended: does not separate the words “demo” and “image” */
@@ -184,7 +184,7 @@ color: #ebc;
 .error_status {}
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 /* Recommended */
@@ -209,7 +209,7 @@ color: #ebc;
   <li>Other</li>
 </ul>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 .selector {
@@ -236,7 +236,7 @@ color: #ebc;
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 .selector {
@@ -277,7 +277,7 @@ color: #ebc;
 ### 2.2 Block Content Indentation
 <p dir="rtl">محتوای هر بلوک باید دارای یک فاصله اضافی باشد. این کار باعث نمایش بهتر سلسه مراتبی میشود.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 @media screen, projection {
@@ -290,7 +290,7 @@ html {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 @media screen, projection {
@@ -309,7 +309,7 @@ html {
 ### 2.3 Declaration Stops
 <p dir="rtl">بعد از هر تعریف، یک ";" قرار دهید. این کار برای انسجام کد بسیار مفید است.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 .test {
@@ -318,7 +318,7 @@ html {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 .test {
@@ -333,7 +333,7 @@ html {
 ### 2.4 Property Name Stops
 <p dir="rtl">بعد از هر ":" یک فاصله قرار دهید.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 h3 {
@@ -341,7 +341,7 @@ h3 {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 h3 {
@@ -356,7 +356,7 @@ h3 {
 <p dir="rtl">بین آخرین سلکتور و آغاز بلوک از فاصله استفاده کنید</p>
 <p dir="rtl">در این قانون، شروع بلوک و آخرین سلکتور باید در یک خط و با یک فاصله از هم قرار داشته باشند.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 /* Not recommended: missing space */
@@ -371,7 +371,7 @@ h3 {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 #video {
@@ -385,7 +385,7 @@ h3 {
 ### 2.6 Selector and Declaration Separation
 <p dir="rtl">برای هر تعریف یا سلکتور، یک خط جدید ایجاد کنید.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 a:focus, a:active {
@@ -393,7 +393,7 @@ a:focus, a:active {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 h1,
@@ -410,7 +410,7 @@ h3 {
 ### 2.7 Rule Separation
 <p dir="rtl">قوانین را با خط جدید از یکدیگر جدا کنید. هر قانون در خط دوم پس از قانون اول قرار دارد.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 html {
@@ -422,7 +422,7 @@ body {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 html {
@@ -443,7 +443,7 @@ body {
 <p dir="rtl">از علامت کوتیشن در URI استفاده نکنید</p>
 <p dir="rtl">استثناء: اگر نیاز داشتید از @charset استفاده کنید، از "" استفاده کنید، زیرا '' قابل پذیرش در اینجا نیست.</p>
 
-#### Bad Practice:
+#### Bad:
 
 ```css
 @import url("https://www.google.com/css/maia.css");
@@ -453,7 +453,7 @@ html {
 }
 ```
 
-#### Good Practice:
+#### Good:
 
 ```css
 @import url(https://www.google.com/css/maia.css);
@@ -471,7 +471,7 @@ html {
 ### 3.1 Section Comments
 <p dir="rtl">برای هر بخش یک کامنت توضیحات و جداکننده قرار دهید.</p>
 
-#### Good Practice:
+#### Good:
 
 ```css
 /* Header */
