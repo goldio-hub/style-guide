@@ -168,7 +168,6 @@ The currency symbol for the Euro is “€”.
 <p dir="rtl">برای stylesheet ها و script ها، <code>type</code> را حذف نمایید.</p>
 <p dir="rtl">از <code>type</code> استفاده نکنید، مگر اینکه جیزی غیر از css و یا javascript باشد.</p>
 <p dir="rtl">وقتی <code>type</code> را حذف میکنیم، به طور خودکار مرورگرها این موارو را با مقدار پیشفرض مشخص میکنند.</p>
-<p dir="rtl"></p>
 
 #### Bad:
 
@@ -186,5 +185,43 @@ The currency symbol for the Euro is “€”.
 <script src="https://www.google.com/js/gweb/analytics/autotrack.js"></script>
 ```
 
+<br />
+<br />
+
+<h2>2 HTML Formatting Rules</h2>
+
+<h3>2.1 General Formatting</h4>
+<p dir="rtl">برای هر فرزند بلوک، لیست یا عنصر جدول، یک خط جدید ایجاد کنید.</p>
+<p dir="rtl">برای هر فرزند هر بلوک، یک فرو رفتگی ایجاد کنید.</p>
+<p dir="rtl">تنها برای آیتم های لیست ها میتوانید درصورتی که فقط دارای متن بودند، در یک خط قرار دهید.</p>
+
+#### Good:
+
+```html
+<blockquote>
+  <p><em>Space</em>, the final frontier.</p>
+</blockquote>
+```
+
+```html
+<ul>
+  <li>Moe</li>
+  <li>Larry</li>
+  <li>Curly</li>
+</ul>
+```
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Income</th>
+      <th scope="col">Taxes</th>
+  <tbody>
+    <tr>
+      <td>$ 5.00</td>
+      <td>$ 4.50</td>
+</table>
+```
 <br />
 <br />
