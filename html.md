@@ -32,9 +32,9 @@
 <br />
 <br />
 
-<h2>1 HTML Style Rules</h2>
+## 1 HTML Style Rules
 
-<h3>1.1 Document Type</h4>
+### 1.1 Document Type
 <p dir="rtl">از HTML5 استفاده کنید</p>
 <p dir="rtl">حتما از تگ <code>&#60;!DOCTYPE html&#62;</code> در اول فایل خود استفاده کنید تا مشخص شود از استاندارد چه html ای استفاده میکنید.</p>
 <p dir="rtl">برای تمام تگ هایی که نیازی به بسته شدن ندارند نیز تگ بسته را قرار دهید.</p>
@@ -54,7 +54,7 @@
 <br />
 <br />
 
-<h3>1.2 HTML Validity</h4>
+### 1.2 HTML Validity
 <p dir="rtl">همیشه از HTML های معتبر استفاده کنید.</p>
 <p dir="rtl">تنها درصورتی که نیاز به افزایش کارایی سیستم با استفاده از کم کردن حجم فایل ها دارید، حق دارید این قانون را عمل نکنید که البته این کار باید توسط ابزار ها و در فایل دیگری صورت بگیرد و برنامه نویسان همیشه موظف به رعایت این قانون هستند.</p>
 <p dir="rtl">از ابزارهایی مثل <a href="https://validator.w3.org/">W3 HTML validator</a> برای تست کردن صحت کد های خوداستفاده کنید.</p>
@@ -78,7 +78,7 @@
 <br />
 <br />
 
-<h3>1.3 Semantics</h4>
+### 1.3 Semantics
 <p dir="rtl">از تگ های HTML با توجه به هدفشان استفاده کنید.</p>
 <p dir="rtl">تگ های HTML هر یک دارای یک هدفی هستند که در حین توسعه آن ها در نظر گرفته شده اند.</p>
   <p dir="rtl">برای مثال برای پاراگراف ها از تگ <code>p</code> و برای سرتیتر ها از تگ <code>h</code> و برای دکمه ها از تگ <code>button</code> استفاده کنید.</p>
@@ -99,7 +99,7 @@
 <br />
 <br />
 
-<h3>1.4 Multimedia Fallback</h4>
+### 1.4 Multimedia Fallback
 <p dir="rtl">برای داده های چند رسانه ای نسخه های جایگزین فراهم کنید تا درصورتی که محتوا نتوانستند دانلود شوند، جایگزین ها نمایش داده شوند.</p>
 <p dir="rtl">برای تصاویر از متن جایگزین با معنایی استفاده کنید. (تگ alt)</p>
 <p dir="rtl">برای ویدیو ها و صوت ها کپشن قرار دهید و درصورت امکان متن صوت و ویدیو را نیز در ترنسکریپت آن قرار دهید.</p>
@@ -121,7 +121,7 @@
 <br />
 <br />
 
-<h3>1.5 Separation of Concerns</h4>
+### 1.5 Separation of Concerns
 <p dir="rtl">رفتار، ظاهر و ساختار را همیشه جدا از هم نگه دارید.</p>
 <p dir="rtl">تا جایی که میتوانید فایل های ساختاری HTML فایل های رفتاری scripts و فایل های ظاهری styling را از یکدیگر جدا نگه دارید.</p>
 <p dir="rtl">این کار به خاطر نگه داری بهتر انجام میشود. تغییر یک استایل در فایل styles راحت تر از تغییر آن در template اصلی میباشد.</p>
@@ -157,7 +157,7 @@
 <br />
 <br />
 
-<h3>1.6 Entity References</h4>
+### 1.6 Entity References
 <p dir="rtl">از علامت هایی مثل <code>&amp;mdash;</code> استفاده نکنید. و به جای آن از کاراکتر های UTF-8 استفاده کنید. </p>
 <p dir="rtl">تنها برای کارکتر های ویژه مانند نیم فاصله مجاز به استفاده از این کارکتر ها هستید.</p>
 
@@ -176,7 +176,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>1.7 <code>type</code> Attributes</h4>
+### 1.7 <code>type</code> Attributes
 <p dir="rtl">برای stylesheet ها و script ها، <code>type</code> را حذف نمایید.</p>
 <p dir="rtl">از <code>type</code> استفاده نکنید، مگر اینکه جیزی غیر از css و یا javascript باشد.</p>
 <p dir="rtl">وقتی <code>type</code> را حذف میکنیم، به طور خودکار مرورگرها این موارو را با مقدار پیشفرض مشخص میکنند.</p>
@@ -200,7 +200,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>1.8 Meta Data</h4>
+### 1.8 Meta Data
 <p dir="rtl">تگ عنوان، در HTML5 ضروری است و نمیتوان آن را حذف کرد.</p>
 <p dir="rtl">سعی کنید تا برای هر صفحه با معنی ترین عنوان ممکن را انتخاب کنید.</p>
 <p dir="rtl">برای اطمینان حاصل کردن از دیده شدن توسط موتور های جستجو، حتما زبان و کاراکتر را در سند مشخص کنید.</p>
@@ -219,7 +219,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>1.9 Setting The Viewport</h4>
+### 1.9 Setting The Viewport
 <p dir="rtl">قسمتی از صفحه وب که توسط کاربر دیده میشود، Viewport نام دارد که میتوان از طریق تگ <code>meta</code> آن را کنترل کرد.</p>
 <p dir="rtl">این تگ برای مرورگر دستوراتی را فراهم میکند که باعث میشود ابعاد و مقیاس در گوشی متفاوت با کامپیوتر دیده شود.</p>
 <p dir="rtl">میتوانید تفاوت وجود و عدم وجود این تگ را در <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">اینجا</a> مشاهده کنید.</p>
@@ -233,9 +233,9 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h2>2 HTML Formatting Rules</h2>
+## 2 HTML Formatting Rules
 
-<h3>2.1 General Formatting</h4>
+### 2.1 General Formatting
 <p dir="rtl">برای هر فرزند بلوک، لیست یا عنصر جدول، یک خط جدید ایجاد کنید.</p>
 <p dir="rtl">برای هر فرزند هر بلوک، یک فرو رفتگی ایجاد کنید.</p>
 <p dir="rtl">تنها برای آیتم های لیست ها میتوانید درصورتی که فقط دارای متن بودند، در یک خط قرار دهید.</p>
@@ -303,7 +303,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>2.2 HTML Line-Wrapping</h4>
+### 2.2 HTML Line-Wrapping
 <p dir="rtl">خط های بلند را بشکانید.</p>
 <p dir="rtl">اگرجه برای HTML درمورد طول هر سطر موردی بیان نشده، اما درصورتی که طول خط بسیار بلند شد و شکستن خط موجب بالارفتن خوانایی میشد، خط را بشکانید.</p>
 
@@ -337,7 +337,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>2.3 HTML Quotation Marks</h4>
+### 2.3 HTML Quotation Marks
 <p dir="rtl">از دابل کوتیشن <code>" "</code> برای مقدار دهی ویژگی ها استفاده کنید.</p>
 
 #### Bad:
@@ -367,7 +367,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>2.4 HTML Closing Tags</h4>
+### 2.4 HTML Closing Tags
 <p dir="rtl">همیشه تمامی تگ ها را ببندید.</p>
 
 #### Bad:
@@ -399,7 +399,7 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
-<h3>2.5 HTML Spaces and Equal Signs</h4>
+### 2.5 HTML Spaces and Equal Signs
 <p dir="rtl">از فاصله دادن بین علامت مساوی و ویژگی ها پرهیز کنید.</p>
 
 #### Bad:
