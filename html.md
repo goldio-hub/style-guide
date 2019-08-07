@@ -261,13 +261,10 @@ The currency symbol for the Euro is “€”.
 <p dir="rtl">از دابل کوتیشن <code>" "</code> برای مقدار دهی ویژگی ها استفاده کنید.</p>
 
 #### Bad:
-<span style="color:red">
 
 ```html
 <a class='maia-button maia-button-secondary'>Sign in</a>
 ```
-
-</span>
 
 #### Good:
 
