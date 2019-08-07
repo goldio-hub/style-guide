@@ -229,8 +229,6 @@ The currency symbol for the Euro is “€”.
 <h3>2.2 HTML Line-Wrapping</h4>
 <p dir="rtl">خط های بلند را بشکانید.</p>
 <p dir="rtl">اگرجه برای HTML درمورد طول هر سطر موردی بیان نشده، اما درصورتی که طول خط بسیار بلند شد و شکستن خط موجب بالارفتن خوانایی میشد، خط را بشکانید.</p>
-<p dir="rtl"></p>
-<p dir="rtl"></p>
 
 #### Bad:
 
@@ -257,6 +255,24 @@ The currency symbol for the Euro is “€”.
     ng-show="ctrl.loading"
     md-diameter="35">
 </md-progress-circular>
+```
+
+<h3>2.3 HTML Quotation Marks</h4>
+<p dir="rtl">از دابل کوتیشن <code>" "</code> برای مقدار دهی ویژگی ها استفاده کنید.</p>
+
+#### Bad:
+<span style="color:red">
+
+```html
+<a class='maia-button maia-button-secondary'>Sign in</a>
+```
+
+</span>
+
+#### Good:
+
+```html
+<a class="maia-button maia-button-secondary">Sign in</a>
 ```
 
 <br />
