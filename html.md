@@ -196,6 +196,39 @@ The currency symbol for the Euro is “€”.
 <br />
 <br />
 
+<h3>1.8 Meta Data</h4>
+<p dir="rtl">تگ عنوان، در HTML5 ضروری است و نمیتوان آن را حذف کرد.</p>
+<p dir="rtl">سعی کنید تا برای هر صفحه با معنی ترین عنوان ممکن را انتخاب کنید.</p>
+<p dir="rtl">برای اطمینان حاصل کردن از دیده شدن توسط موتور های جستجو، حتما زبان و کاراکتر را در سند مشخص کنید.</p>
+
+#### Good:
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Syntax and Coding Style</title>
+</head>
+```
+
+<br />
+<br />
+
+<h3>1.9 Setting The Viewport</h4>
+<p dir="rtl">قسمتی از صفحه وب که توسط کاربر دیده میشود، Viewport نام دارد که میتوان از طریق تگ <code>meta</code> آن را کنترل کرد.</p>
+<p dir="rtl">این تگ برای مرورگر دستوراتی را فراهم میکند که باعث میشود ابعاد و مقیاس در گوشی متفاوت با کامپیوتر دیده شود.</p>
+<p dir="rtl">میتوانید تفاوت وجود و عدم وجود این تگ را در <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">اینجا</a> مشاهده کنید.</p>
+
+#### Good:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+<br />
+<br />
+
 <h2>2 HTML Formatting Rules</h2>
 
 <h3>2.1 General Formatting</h4>
@@ -297,10 +330,21 @@ The currency symbol for the Euro is “€”.
 </md-progress-circular>
 ```
 
+<br />
+<br />
+
 <h3>2.3 HTML Quotation Marks</h4>
 <p dir="rtl">از دابل کوتیشن <code>" "</code> برای مقدار دهی ویژگی ها استفاده کنید.</p>
 
 #### Bad:
+
+```html
+<table class=table striped>
+```
+
+```html
+<table class=striped>
+```
 
 ```html
 <a class='maia-button maia-button-secondary'>Sign in</a>
@@ -310,6 +354,60 @@ The currency symbol for the Euro is “€”.
 
 ```html
 <a class="maia-button maia-button-secondary">Sign in</a>
+```
+
+```html
+<table class="striped">
+```
+
+<br />
+<br />
+
+<h3>2.4 HTML Closing Tags</h4>
+<p dir="rtl">همیشه تمامی تگ ها را ببندید.</p>
+
+#### Bad:
+
+```html
+<meta charset="utf-8">
+```
+
+```html
+<section>
+  <p>This is a paragraph.
+  <p>This is a paragraph.
+</section>
+```
+
+#### Good:
+
+```html
+<meta charset="utf-8" />
+```
+
+```html
+<section>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</section>
+```
+
+<br />
+<br />
+
+<h3>2.5 HTML Spaces and Equal Signs</h4>
+<p dir="rtl">از فاصله دادن بین علامت مساوی و ویژگی ها پرهیز کنید.</p>
+
+#### Bad:
+
+```html
+<link rel = "stylesheet" href = "styles.css">
+```
+
+#### Good:
+
+```html
+<link rel="stylesheet" href="styles.css">
 ```
 
 <br />
