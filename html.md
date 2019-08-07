@@ -6,7 +6,12 @@
   <li>
     <a href="#1-html-style-rules">1 HTML Style Rules</a>
     <ul>
-      <li><a href="#11-id-and-class-naming">1.1 Document Type</a></li>
+      <li><a href="#11-document-type">1.1 Document Type</a></li>
+      <li><a href="#12-html-validity">1.2 HTML Validity</a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
     </ul>
   </li>
   <li>
@@ -66,7 +71,7 @@
 <br />
 <br />
 
-<h3>1.3 Semantics/h4>
+<h3>1.3 Semantics</h4>
 <p dir="rtl">از تگ های HTML با توجه به هدفشان استفاده کنید.</p>
 <p dir="rtl">تگ های HTML هر یک دارای یک هدفی هستند که در حین توسعه آن ها در نظر گرفته شده اند.</p>
   <p dir="rtl">برای مثال برای پاراگراف ها از تگ <code>p</code> و برای سرتیتر ها از تگ <code>h</code> و برای دکمه ها از تگ <code>button</code> استفاده کنید.</p>
