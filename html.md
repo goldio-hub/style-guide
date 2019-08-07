@@ -13,6 +13,8 @@
       <li><a href="#15-separation-of-concerns">1.5 Separation of Concerns</a></li>
       <li><a href="#16-entity-references">1.6 Entity References</a></li>
       <li><a href="#17-type-attributes">1.7 <code>type</code> Attributes</a></li>
+      <li><a href="#18-meta-data">1.8 Meta Data</a></li>
+      <li><a href="#19-setting-the-viewport">1.9 Setting The Viewport</a></li>
     </ul>
   </li>
   <li>
@@ -21,6 +23,8 @@
       <li><a href="#21-general-formatting">2.1 General Formatting</a></li>
       <li><a href="#22-html-line-wrapping">2.2 HTML Line-Wrapping</a></li>
       <li><a href="#23-html-quotation-marks">2.3 HTML Quotation Marks</a></li>
+      <li><a href="#24-html-closing-tags">2.4 HTML Closing Tags</a></li>
+      <li><a href="#25-html-spaces-and-equal-signs">2.5 HTML Spaces and Equal Signs</a></li>
     </ul>
   </li>
 </ul>
