@@ -225,3 +225,39 @@ The currency symbol for the Euro is “€”.
 ```
 <br />
 <br />
+
+<h3>2.2 HTML Line-Wrapping</h4>
+<p dir="rtl">خط های بلند را بشکانید.</p>
+<p dir="rtl">اگرجه برای HTML درمورد طول هر سطر موردی بیان نشده، اما درصورتی که طول خط بسیار بلند شد و شکستن خط موجب بالارفتن خوانایی میشد، خط را بشکانید.</p>
+<p dir="rtl"></p>
+<p dir="rtl"></p>
+
+#### Bad:
+
+```html
+<md-progress-circular md-mode="indeterminate" class="md-accent"
+    ng-show="ctrl.loading" md-diameter="35">
+</md-progress-circular>
+```
+
+```html
+<md-progress-circular md-mode="indeterminate"
+                      class="md-accent"
+                      ng-show="ctrl.loading"
+                      md-diameter="35">
+</md-progress-circular>
+```
+
+#### Good:
+
+```html
+<md-progress-circular
+    md-mode="indeterminate"
+    class="md-accent"
+    ng-show="ctrl.loading"
+    md-diameter="35">
+</md-progress-circular>
+```
+
+<br />
+<br />
