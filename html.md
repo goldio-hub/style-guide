@@ -42,17 +42,70 @@
 <br />
 <br />
 
-<h3>1.1 Document Type</h4>
-<p dir="rtl"></p>
+<h3>1.2 HTML Validity</h4>
+<p dir="rtl">همیشه از HTML های معتبر استفاده کنید.</p>
+<p dir="rtl">تنها درصورتی که نیاز به افزایش کارایی سیستم با استفاده از کم کردن حجم فایل ها دارید، حق دارید این قانون را عمل نکنید که البته این کار باید توسط ابزار ها و در فایل دیگری صورت بگیرد و برنامه نویسان همیشه موظف به رعایت این قانون هستند.</p>
+<p dir="rtl">از ابزارهایی مثل <a href="https://validator.w3.org/">W3 HTML validator</a> برای تست کردن صحت کد های خوداستفاده کنید.</p>
 
 #### Bad:
 
 ```html
+<title>Test</title>
+<article>This is only a test.
 ```
 
 #### Good:
 
 ```html
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Test</title>
+<article>This is only a test.</article>
+```
+
+<br />
+<br />
+
+<h3>1.3 Semantics/h4>
+<p dir="rtl">از تگ های HTML با توجه به هدفشان استفاده کنید.</p>
+<p dir="rtl">تگ های HTML هر یک دارای یک هدفی هستند که در حین توسعه آن ها در نظر گرفته شده اند.</p>
+  <p dir="rtl">برای مثال برای پاراگراف ها از تگ <code>p</code> و برای سرتیتر ها از تگ <code>h</code> و برای دکمه ها از تگ <code>button</code> استفاده کنید.</p>
+<p dir="rtl">استفاده درست از تگ های HTML موجب بالا رفتن کارایی و خوانایی بهتر کد و دسترسی بهتر برای افراد ناتوان میشود.</p>
+
+#### Bad:
+
+```html
+<div onclick="goToRecommendations();">All recommendations</div>
+```
+
+#### Good:
+
+```html
+<a href="recommendations/">All recommendations</a>
+```
+
+<br />
+<br />
+
+<h3>1.4 Multimedia Fallback/h4>
+<p dir="rtl">برای داده های چند رسانه ای نسخه های جایگزین فراهم کنید تا درصورتی که محتوا نتوانستند دانلود شوند، جایگزین ها نمایش داده شوند.</p>
+<p dir="rtl">برای تصاویر از متن جایگزین با معنایی استفاده کنید. (تگ alt)</p>
+<p dir="rtl"></p>
+<p dir="rtl"></p>
+<p dir="rtl"></p>
+<p dir="rtl"></p>
+<p dir="rtl"></p>
+
+#### Bad:
+
+```html
+<div onclick="goToRecommendations();">All recommendations</div>
+```
+
+#### Good:
+
+```html
+<a href="recommendations/">All recommendations</a>
 ```
 
 <br />
