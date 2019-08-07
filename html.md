@@ -202,8 +202,40 @@ The currency symbol for the Euro is “€”.
 <p dir="rtl">برای هر فرزند بلوک، لیست یا عنصر جدول، یک خط جدید ایجاد کنید.</p>
 <p dir="rtl">برای هر فرزند هر بلوک، یک فرو رفتگی ایجاد کنید.</p>
 <p dir="rtl">تنها برای آیتم های لیست ها میتوانید درصورتی که فقط دارای متن بودند، در یک خط قرار دهید.</p>
+<p dir="rtl">هر فرورفتگی باید شامل 2 فاصله باشد.</p>
+<p dir="rtl">از تب برای فرو رفتگی ها استفاده نکنید.</p>
+<p dir="rtl">تمام حروف تگ ها و ویژگی ها باید حروف کوچک باشند.</p>
+<p dir="rtl">در پایان خط ها فاصله ایجاد نکنید.</p>
+
+#### Bad:
+
+```html
+<SECTION> 
+  <p>This is a paragraph.</p>
+</SECTION>
+```
+
+```html
+<Section> 
+  <p>This is a paragraph.</p>
+</SECTION>
+```
+
+```html
+<div CLASS="menu">
+```
 
 #### Good:
+
+```html
+<section> 
+  <p>This is a paragraph.</p>
+</section>
+```
+
+```html
+<div class="menu">
+```
 
 ```html
 <blockquote>
